@@ -48,7 +48,7 @@ const Hweet = ({ hweetObj, isOwner }) => {
                     :
                     <><h4>{hweetObj.text}</h4>
                         {hweetObj.attachmentUrl && (
-                            <img width="50%" height="50%" src={hweetObj.attachmentUrl}/>
+                            <img src={hweetObj.attachmentUrl}/>
                         )}
                         {isOwner && (
                             <div className="hweet__actions">
